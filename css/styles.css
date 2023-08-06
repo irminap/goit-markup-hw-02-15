@@ -1,0 +1,89 @@
+root {
+  --first-color: #ffffff;
+  --second-color: #2e2f42;
+  --blue-color: #2196f3;
+  --blue-text-color: #2196f3;
+  --black-text-color: #000000;
+  --close-to-clack-text: hsl(0, 0%, 13%);
+  --dark-blue-text: #2e2f42;
+  --white-text-color: #ffffff;
+  --gray-text-color: #757575;
+}
+
+.nav_menu {
+  background-color: #ffffff;
+}
+.blue_link {
+  color: var(--blue-text-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21;
+  letter-spacing: 0.03;
+}
+
+.black_link {
+  color: var(--dark-blue-text);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21;
+  letter-spacing: 0.03;
+}
+
+.menu_links {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24;
+  letter-spacing: 0.02;
+  color: var(--dark-blue-text);
+}
+
+.mail_link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #434455;
+}
+
+.phone_link {
+  color: var(--dark-blue-text);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21;
+  letter-spacing: 0.03;
+}
+
+.order_box {
+  background-color: #2e2f42;
+  font-family: Roboto;
+  text-align: center;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+}
+
+.order_botton {
+  background-color: #4d5ae5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.main_page_part {
+  background-color: #ffffff;
+}
+.footer_design {
+  background-color: #2f303a;
+}
+
+.headline {
+  color: #ffffff;
+}
