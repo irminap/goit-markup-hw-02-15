@@ -1,10 +1,10 @@
-root {
+:root {
   --first-color: #ffffff;
   --second-color: #2e2f42;
   --blue-color: #2196f3;
   --blue-text-color: #2196f3;
   --black-text-color: #000000;
-  --close-to-clack-text: hsl(0, 0%, 13%);
+  --close-to-clack-text: hsla(0, 0%, 13%, 0);
   --dark-blue-text: #2e2f42;
   --white-text-color: #ffffff;
   --gray-text-color: #757575;
@@ -12,26 +12,52 @@ root {
 
 .nav_menu {
   background-color: #ffffff;
+  display: flex;
+
+  width: 1440px;
+  height: 72px;
+  border: 0px 0px 1px 0px;
 }
-.blue_link {
-  color: var(--blue-text-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21;
-  letter-spacing: 0.03;
+
+.side_links {
+  display: flex;
+  list-style: none;
 }
 
 .black_link {
   color: var(--dark-blue-text);
+  width: 71px;
+  height: 21px;
+
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 21;
   letter-spacing: 0.03;
+  text-decoration: none;
+  padding-top: 25.5px;
+  padding-right: 1169px;
+  padding-bottom: 25.5px;
+  padding-left: 200px;
 }
 
-.menu_links {
+.blue_link {
+  color: var(--blue-text-color);
+  width: 44px;
+  height: 21px;
+  padding-top: 25.5px;
+  padding-right: 1240px;
+  padding-bottom: 25.5px;
+  padding-left: 156px;
+}
+
+.subpages {
+  width: 261px;
+  height: 24px;
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -60,15 +86,42 @@ root {
 
 .order_box {
   background-color: #2e2f42;
-  font-family: Roboto;
-  text-align: center;
   width: 1440px;
   height: 600px;
   top: 72px;
+  text-align: center;
 }
 
-.order_botton {
+.headline {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  width: 496px;
+  height: 120px;
+  top: 260px;
+  left: 472px;
+
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 292;
+  padding-left: 472px;
+}
+
+.order_button {
   background-color: #4d5ae5;
+  width: Hug (169px);
+  height: Hug (56px);
+  top: 428px;
+  left: 636px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px;
+  gap: 10px;
+
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -82,8 +135,4 @@ root {
 }
 .footer_design {
   background-color: #2f303a;
-}
-
-.headline {
-  color: #ffffff;
 }
